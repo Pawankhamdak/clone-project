@@ -1,7 +1,8 @@
-const product={
-    title: "books",
-    rating:5,
-    offer:5,
-    size:25,
-}
-console.log(product);
+
+let student={
+name:"pawan khamdak",
+age:40,
+};
+for(let i in student){
+    console.log(i,"=",student[i]);
+};
