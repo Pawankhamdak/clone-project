@@ -1,9 +1,8 @@
-let arr=[45,45,443,3333];
-let d=0.1;
-
-for(let i=0;i<arr.length;i++){
-    console.log(arr[i]);
-    let Nnum=arr[i]-(arr[i]*0.1);
-    arr[i]=Nnum;
-};
-console.log(arr);
+let company=['bloomberg','microsoft','uber','Ibm','Netflix'];
+console.log(company);
+company.shift();
+console.log(company);
+company.splice(1,1,'ola');
+console.log(company);
+company.push('Amazon');
+console.log(company);
