@@ -1,8 +1,9 @@
+let arr=[45,45,443,3333];
+let d=0.1;
 
-let student={
-name:"pawan khamdak",
-age:40,
+for(let i=0;i<arr.length;i++){
+    console.log(arr[i]);
+    let Nnum=arr[i]-(arr[i]*0.1);
+    arr[i]=Nnum;
 };
-for(let i in student){
-    console.log(i,"=",student[i]);
-};
+console.log(arr);
